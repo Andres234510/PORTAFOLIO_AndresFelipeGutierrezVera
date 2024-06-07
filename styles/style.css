@@ -108,3 +108,10 @@ main{
     justify-content: center;
     /* align-items: center; */
 }
+
+.experience > img{
+    width: 8rem;
+    height: 8rem;
+    margin: 25px;
+    box-shadow: 0 0 25px #500000;
+}
