@@ -51,10 +51,15 @@ main{
     border-radius: 50%;
 }
 
+.proyects{
+    display: flex;
+    flex-direction: column;
+}
+
 .card {
     width: 20rem;
     height: 13rem;
-    margin: 40px;
+    margin: 30px;
     border-radius: 15px;
     display: flex;
     flex-direction: row;
@@ -86,4 +91,20 @@ main{
     margin: 30px;
     position: relative;
     justify-content: end;
+}
+.references{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-for-references{
+    width: 13rem;
+    height: 10rem;
+    margin: 30px;
+    background-color: aliceblue;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
 }
