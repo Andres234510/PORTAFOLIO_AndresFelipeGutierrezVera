@@ -95,6 +95,8 @@ main{
 .references{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-for-references{
@@ -134,8 +136,69 @@ main{
     margin: 15px;
 }
 
-progress{
-    
-    height: 4rem;
-    
+
+.progress {
+    height: 35px;
+    width: 100%;
+    border: 1px solid #ff0000;
+    border-radius: 30px;
+    background-color: #ff9494;
+    margin-bottom: 15px;
+}
+
+.progress-bar {
+    height: 100%;
+    background: #d70000;
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 30px;
+}
+
+.progress-bar-text {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #cce7f5;
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 1040px){
+
+    header {
+        background-image: linear-gradient(to top, #1a5c0b,#5aff1f );
+    }
+    .description > p {
+        color: aliceblue;
+    }
+    main{
+        background-color: #eeffe4;
+    }
+
+    .title{
+        border-bottom: solid 4px #5aff1f;
+    }
+
+    .card{
+        width: 24rem;
+        height: 13rem;
+        background-image: linear-gradient(to top, #37e600,#84ff50 );
+    }
+
+    .references{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card-for-references{
+        margin: 10px;
+    }
+
+    .progress{
+        background-color: #b5ff90;
+        border-color: #073400;
+    }
+
+    .progress-bar{
+        background: #5aff1f;
+    }
 }
