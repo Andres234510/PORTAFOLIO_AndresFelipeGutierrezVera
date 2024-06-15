@@ -12,6 +12,7 @@ header{
     justify-content: center;
     text-align: center;
 }
+
 .description{
     width: 40%;
     margin: 10px;
@@ -92,6 +93,7 @@ main{
     position: relative;
     justify-content: end;
 }
+
 .references{
     display: flex;
     flex-direction: column;
@@ -136,7 +138,6 @@ main{
     margin: 15px;
 }
 
-
 .progress {
     height: 35px;
     width: 100%;
@@ -161,7 +162,6 @@ main{
     font-weight: bold;
     color: #cce7f5;
 }
-
 
 @media screen and (min-width: 480px) and (max-width: 1040px){
 
@@ -223,4 +223,24 @@ main{
     .description{
         text-align: justify;
     }
+}
+
+@media screen and (min-width: 820px) and (max-width: 1180px){
+    .title{
+        width: 90%;
+        margin: 2.5rem;
+    }
+
+    .proyects{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card{
+        width: 20.5rem;
+    }
+
 }
