@@ -111,11 +111,12 @@ main{
     /* align-items: center; */
 }
 
-.experience > img{
+.porcent > img{
     width: 8rem;
     height: 8rem;
     margin: 25px;
     box-shadow: 0 0 25px #500000;
+    border-radius: 30%;
 }
 
 .experience{
@@ -193,6 +194,10 @@ main{
         margin: 10px;
     }
 
+    .porcent > img{
+        box-shadow: 0 0 25px #073400;
+    }
+
     .progress{
         background-color: #b5ff90;
         border-color: #073400;
@@ -259,6 +264,10 @@ main{
 
     .card-for-references{
         margin: 10px;
+    }
+
+    .porcent > img{
+        box-shadow: 0 0 25px #443004;
     }
 
     .progress{
@@ -358,6 +367,10 @@ main{
 
     .card-for-references{
         margin: 10px;
+    }
+
+    .porcent > img{
+        box-shadow: 0 0 25px #0a0e5c;
     }
 
     .progress{
