@@ -108,7 +108,10 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
+}
+
+.card-for-references > p{
+    margin: 0.5rem;
 }
 
 .porcent > img{
@@ -316,6 +319,7 @@ main{
     .photo-front-page > h1{
         color: #e8f1ff;
         margin: 3rem;
+        font-size: 2.5rem;
     }
 
     .photo-front-page > img{
@@ -324,8 +328,13 @@ main{
         box-shadow: 0 0 25px #e8f1ff;
     }
 
+    .description > h3{
+        font-size: 2rem;
+    }
+
     .description > p {
         color: #e8f1ff;
+        font-size: 1.5rem;
     }
 
     .proyects{
@@ -352,7 +361,7 @@ main{
 
 
     a {
-        color: #FF0000;
+        color: #e8f1ff;
     }
 
     a:hover {
