@@ -179,6 +179,10 @@ footer > a{
     margin: 2rem;
 }
 
+a > img{
+    width: 8rem;
+}
+
 @media screen and (min-width: 393px) and (max-width: 480px){
 
     header {
